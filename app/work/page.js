@@ -19,25 +19,29 @@ import WorkSlideBtns from "@/components/WorkSlideBtns";
 const projects = [
   {
     num: "01",
-    category: "Front-end",
+    category: "Shop Store",
     title: "Project 1",
     description:
-      "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "loerm ispib ahbhn gymt uikha ib sgtii ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    stack: [
+      { name: "Next.Js" },
+      { name: "Tailwind" },
+      { name: "Redux-Toolkit" },
+    ],
     img: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://shop-store-dov9.vercel.app/",
+    github: "https://github.com/UmerIshaq/shop-store",
   },
   {
     num: "02",
-    category: "Full-Stack",
+    category: "Image-Gallery",
     title: "Project 2",
     description:
       "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+    stack: [{ name: "Next.js" }, { name: "Tailwind" }, { name: "TypeScript" }],
     img: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    live: "https://image-gallery-cloz.vercel.app/",
+    github: "https://github.com/UmerIshaq/image_gallery",
   },
   {
     num: "03",
@@ -78,15 +82,18 @@ const WorkPage = () => {
               className="text-[32px] font-bold leading-none text-white
              group-hover:text-accent transition-all duration-500 capitalize"
             >
-              {project.category} Project
+              {project.category}
             </h2>
             {/* Project description  */}
             <p className="text-white/60">{project.description}</p>
             {/* Project Stack  */}
-            <ul className="flex gap-4">
+            <ul className="flex gap-1 lg:gap-2">
               {project.stack.map((item, index) => {
                 return (
-                  <li key={index} className="text-accent text-xl">
+                  <li
+                    key={index}
+                    className="text-accent text-sm md:text-lg lg:text-xl flex flex-wrap"
+                  >
                     {item.name}
                     {/* remove the last Comma  */}
                     {index !== project.stack.length - 1 && ","}
@@ -99,7 +106,7 @@ const WorkPage = () => {
             {/* Buttons  */}
             <div className="flex items-center gap-4">
               {/* Live Project Button */}
-              <Link href={project.live}>
+              <Link href={project.live} target="_blank">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -112,7 +119,7 @@ const WorkPage = () => {
                 </TooltipProvider>
               </Link>
               {/* Github Project Button  */}
-              <Link href={project.github}>
+              <Link href={project.github} target="_blank">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
