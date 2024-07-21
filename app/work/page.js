@@ -45,14 +45,25 @@ const projects = [
   },
   {
     num: "03",
-    category: "Front-end",
+    category: "Movies APP",
     title: "Project 3",
     description:
       "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    live: "https://movieapp-trh8.vercel.app/",
+    github: "https://github.com/UmerIshaq/movieapp",
+  },
+  {
+    num: "04",
+    category: "Movies APP",
+    title: "Project 3",
+    description:
+      "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
+    img: "/assets/work/thumb3.png",
+    live: "https://movieapp-trh8.vercel.app/",
+    github: "https://github.com/UmerIshaq/movieapp",
   },
 ];
 

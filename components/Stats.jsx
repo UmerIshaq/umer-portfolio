@@ -5,21 +5,21 @@ import CountUp from "react-countup";
 
 // import{coun}
 const stats = [
-  { num: 2, text: "Years of experience" },
-  { num: 26, text: "Projects completed" },
+  { num: 1, text: "Years of experience" },
+  { num: 10, text: "Projects completed" },
   { num: 8, text: "Technologies mastered" },
-  { num: 500, text: "Code commits" },
+  { num: 5, text: "AWARD WON" },
 ];
 const Stats = () => {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
       <div className="px-4 lg:px-[6rem]">
-        <div className="flex flex-wrap justify-center items-center gap-6 max-w-[80vw] lg:max-w-none">
+        <div className="grid grid-cols-2 sm:grid-cols-4 mx-auto gap-6 max-w-[80vw] lg:max-w-none">
           {stats.map((stat, index) => {
             return (
               <div
                 key={index}
-                className="flex-1 flex justify-center items-center gap-2 lg:gap-4 lg:justify-start"
+                className="flex-1 flex justify-center items-center gap-3 lg:gap-4 lg:justify-start"
               >
                 <CountUp
                   end={stat.num}

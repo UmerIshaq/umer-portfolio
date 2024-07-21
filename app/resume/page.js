@@ -55,35 +55,35 @@ const experience = {
     "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
   items: [
     {
-      Company: "Tech Solutions Inc.",
-      Position: "Full Stack Developer",
-      duration: "2022 - Present",
+      Company: "ICR-IT CENTER",
+      Position: "Front-end Intern",
+      duration: "MAY-2023 - Aug-2023",
     },
     {
-      Company: "Web Design Studio",
-      Position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      Company: "E-commerce Startup",
-      Position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      Company: "Tech Academy",
-      Position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      Company: "Digital Agency",
-      Position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      Company: "Software Development",
+      Company: "Medifox Tech.(India)",
       Position: "Junior Developer",
-      duration: "2017 - 2018",
+      duration: "Aug-2023 - Dec-2023",
     },
+    {
+      Company: "Xorco Netz",
+      Position: "Next.js developer",
+      duration: "Jan-2024 - Present",
+    },
+    // {
+    //   Company: "Tech Academy",
+    //   Position: "Teaching Assistant",
+    //   duration: "2019 - 2020",
+    // },
+    // {
+    //   Company: "Digital Agency",
+    //   Position: "UI/UX Designer",
+    //   duration: "2018 - 2019",
+    // },
+    // {
+    //   Company: "Software Development",
+    //   Position: "Junior Developer",
+    //   duration: "2017 - 2018",
+    // },
   ],
 };
 // Education data
@@ -94,35 +94,45 @@ const education = {
     "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
   items: [
     {
-      Institution: "Online Course Platform",
-      degree: "FullStack Web  Development Bootcamp",
+      Institution: "Virtual University pak",
+      degree: "BSSE 5th Smester",
+      duration: "2022 - present",
+    },
+    {
+      Institution: "ICR-IT Center",
+      degree: "Front-end web",
       duration: "2023",
     },
     {
-      Institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      Institution: "The Scholars College",
+      degree: "Inter in ICS",
+      duration: "2019-2021",
     },
     {
-      Institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020-2021",
+      Institution: "Govt. High School RP.",
+      degree: "Matriculation",
+      duration: "2017-2019",
     },
-    {
-      Institution: "Tech Institute",
-      degree: "Certified web devloper",
-      duration: "2019",
-    },
-    {
-      Institution: "Design School",
-      degree: "Diploma in Graphics Design",
-      duration: "2016-2018",
-    },
-    {
-      Institution: "Community college",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+    // {
+    //   Institution: "Online Course",
+    //   degree: "Programming Course",
+    //   duration: "2020-2021",
+    // },
+    // {
+    //   Institution: "Tech Institute",
+    //   degree: "Certified web devloper",
+    //   duration: "2019",
+    // },
+    // {
+    //   Institution: "Design School",
+    //   degree: "Diploma in Graphics Design",
+    //   duration: "2016-2018",
+    // },
+    // {
+    //   Institution: "Community college",
+    //   degree: "Associate Degree in Computer Science",
+    //   duration: "2014 - 2016",
+    // },
   ],
 };
 
