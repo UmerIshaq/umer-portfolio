@@ -61,7 +61,7 @@ const projects = [
     description:
       "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
-    img: "/assets/work/thumb3.png",
+    img: "/assets/work/thumb2.png",
     live: "https://movieapp-trh8.vercel.app/",
     github: "https://github.com/UmerIshaq/movieapp",
   },
