@@ -50,7 +50,7 @@ const projects = [
     description:
       "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
-    img: "/assets/work/project3.png",
+    img: "/assets/work/newp3.png",
     live: "https://movieapp-trh8.vercel.app/",
     github: "https://github.com/UmerIshaq/movieapp",
   },
@@ -61,7 +61,7 @@ const projects = [
     description:
       "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
-    img: "/assets/work/thumb2.png",
+    img: "/assets/work/newp3.png",
     live: "https://movieapp-trh8.vercel.app/",
     github: "https://github.com/UmerIshaq/movieapp",
   },
