@@ -45,25 +45,14 @@ const projects = [
   },
   {
     num: "03",
-    category: "Movies APP",
+    category: "Movies App",
     title: "Project 3",
     description:
       "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/newp3.png",
-    live: "https://movieapp-trh8.vercel.app/",
-    github: "https://github.com/UmerIshaq/movieapp",
-  },
-  {
-    num: "04",
-    category: "Movies APP",
-    title: "Project 3",
-    description:
-      "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
-    stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
-    img: "/assets/work/newp3.png",
-    live: "https://movieapp-trh8.vercel.app/",
-    github: "https://github.com/UmerIshaq/movieapp",
+    live: "https://image-gallery-cloz.vercel.app/",
+    github: "https://github.com/UmerIshaq/image_gallery",
   },
 ];
 
