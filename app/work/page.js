@@ -48,7 +48,7 @@ const projects = [
     category: "Movies APP",
     title: "Project 3",
     description:
-      "A comprehensive movies web app built with Next.js, featuring a vast film library, personalized recommendations.",
+      "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/thumb3.png",
     live: "https://movieapp-trh8.vercel.app/",
