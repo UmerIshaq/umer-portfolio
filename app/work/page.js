@@ -22,7 +22,7 @@ const projects = [
     category: "Shop Store",
     title: "Project 1",
     description:
-      "loerm ispib ahbhn gymt uikha ib sgtii ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+      "A fast and scalable e-commerce website built with Next.js, featuring a user-friendly interface, efficient checkout process, and seamless shopping experience.",
     stack: [
       { name: "Next.Js" },
       { name: "Tailwind" },
@@ -37,7 +37,7 @@ const projects = [
     category: "Image-Gallery",
     title: "Project 2",
     description:
-      "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+      "A visually stunning and interactive image gallery website built with Next.js, showcasing a curated collection of images with smooth navigation and responsive design",
     stack: [{ name: "Next.js" }, { name: "Tailwind" }, { name: "TypeScript" }],
     img: "/assets/work/thumb2.png",
     live: "https://image-gallery-cloz.vercel.app/",
@@ -48,7 +48,7 @@ const projects = [
     category: "Movies APP",
     title: "Project 3",
     description:
-      "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+      "A comprehensive movies web app built with Next.js, featuring a vast film library, personalized recommendations, and enhanced cinematic experience.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/thumb3.png",
     live: "https://movieapp-trh8.vercel.app/",
