@@ -51,8 +51,8 @@ const projects = [
       "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/p3.png",
-    live: "https://image-gallery-cloz.vercel.app/",
-    github: "https://github.com/UmerIshaq/image_gallery",
+    live: "https://movieapp-trh8.vercel.app/",
+    github: "https://github.com/UmerIshaq/movieapp",
   },
 ];
 
