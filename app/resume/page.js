@@ -5,6 +5,9 @@ import {
   SiNextdotjs,
   SiBootstrap,
   SiRedux,
+  SiNodedotjs,
+  SiMongodb,
+  SiExpress,
 } from "react-icons/si";
 
 // About Data
@@ -161,6 +164,18 @@ const skills = {
     {
       icon: <SiNextdotjs />,
       name: "Next.js",
+    },
+    {
+      icon: <SiNodedotjs />,
+      name: "Node.js",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      icon: <SiExpress />,
+      name: "Express js",
     },
     {
       icon: <SiBootstrap />,

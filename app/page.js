@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 lg:flex-row justify-between items-center 2xl:pt-2 lg:pb-24 ">
           {/* Text  */}
           <div className="text-center mb-4 lg:mb-0 lg:text-left order-2 lg:order-none">
-            <span className="text-xl">Next.js Developer</span>
+            <span className="text-xl">Full Stack Developer</span>
             <h1 className="h1 mb-6">
               Hello i&apos;m <br />
               <span className="text-accent lg:text-[65px]">Umer Ishaaq</span>
