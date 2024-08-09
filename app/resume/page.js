@@ -165,18 +165,18 @@ const skills = {
       icon: <SiNextdotjs />,
       name: "Next.js",
     },
-    {
-      icon: <SiNodedotjs />,
-      name: "Node.js",
-    },
-    {
-      icon: <SiMongodb />,
-      name: "MongoDB",
-    },
-    {
-      icon: <SiExpress />,
-      name: "Express js",
-    },
+    // {
+    //   icon: <SiNodedotjs />,
+    //   name: "Node.js",
+    // },
+    // {
+    //   icon: <SiMongodb />,
+    //   name: "MongoDB",
+    // },
+    // {
+    //   icon: <SiExpress />,
+    //   name: "Express js",
+    // },
     {
       icon: <SiBootstrap />,
       name: "Bootstrap 5",
