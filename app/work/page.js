@@ -19,6 +19,21 @@ import WorkSlideBtns from "@/components/WorkSlideBtns";
 const projects = [
   {
     num: "01",
+    category: "HeadPhones Website",
+    title: "Project 1",
+    description:
+      "Discover premium sound with our sleek and modern headphones collection, designed for audiophiles and style enthusiasts alike.",
+    stack: [
+      { name: "React.js" },
+      { name: "TailwindCSS" },
+      { name: "Framer-motion" },
+    ],
+    img: "/assets/work/thumb4.png",
+    live: "https://my-headphones.vercel.app/",
+    github: "https://github.com/UmerIshaq/my-headphones",
+  },
+  {
+    num: "02",
     category: "Shop Store",
     title: "Project 1",
     description:
@@ -33,9 +48,9 @@ const projects = [
     github: "https://github.com/UmerIshaq/shop-store",
   },
   {
-    num: "02",
+    num: "03",
     category: "Image-Gallery",
-    title: "Project 2",
+    title: "Project 3",
     description:
       "A visually stunning and interactive image gallery website built with Next.js, showcasing a curated collection of images with smooth navigation and responsive design",
     stack: [{ name: "Next.js" }, { name: "Tailwind" }, { name: "TypeScript" }],
@@ -44,9 +59,9 @@ const projects = [
     github: "https://github.com/UmerIshaq/image_gallery",
   },
   {
-    num: "03",
+    num: "04",
     category: "Movies App",
-    title: "Project 3",
+    title: "Project 4",
     description:
       "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
