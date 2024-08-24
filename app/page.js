@@ -1,14 +1,23 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Image from "next/image";
-
-// Components
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+// import { UpdateFollower } from "react-mouse-follower";
+import React from "react";
 
 export default function Home() {
   return (
+    // <UpdateFollower
+    //   mouseOptions={{
+    //     sensitivity: 0.5,
+    //     backgroundColor: "aqua",
+    //     followSpeed: 0.5,
+    //     zIndex: 999,
+    //     mixBlendMode: "difference",
+    //   }}
+    // >
     <section className="w-full">
       <div className="px-4 lg:px-[7rem] h-full">
         <div className="flex flex-col gap-4 lg:flex-row justify-between items-center 2xl:pt-2 lg:pb-24 ">
@@ -50,5 +59,6 @@ export default function Home() {
       </div>
       <Stats />
     </section>
+    // </UpdateFollower>
   );
 }

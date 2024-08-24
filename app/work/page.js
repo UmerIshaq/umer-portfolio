@@ -165,7 +165,7 @@ const WorkPage = () => {
                       <div className="w-full h-full relative">
                         <Image
                           src={project.img}
-                          alt=""
+                          alt={project.category}
                           fill
                           className="object-cover"
                         />

@@ -14,7 +14,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    "Creative and detail-oriented front-end developer, passionate about translating innovative ideas into interactive, user-friendly digital experiences.",
   info: [
     {
       fieldName: "Name",
@@ -55,7 +55,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    "Showcasing a year of hands-on experience in front-end development, with a proven track record of building dynamic, user-focused websites and applications.",
   items: [
     {
       Company: "ICR-IT CENTER",
@@ -94,7 +94,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    "Solid foundation in web development, backed by formal education in computer science and continuous learning through advanced courses and certifications.",
   items: [
     {
       Institution: "Virtual University pak",
@@ -143,7 +143,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "loerm ispib ahbhn gymt uikha ib sgtii  f ujbdg ioavav. jaos namej nmska kujlorm ipsum.",
+    "Proficient in modern front-end technologies including React.js, Next.js, Tailwind CSS, Bootstrap5, Html5, CSS3, JavaScript and Redux-Toolkit, with a strong focus on responsive design and performance optimization.",
   SkillList: [
     {
       icon: <FaHtml5 />,
