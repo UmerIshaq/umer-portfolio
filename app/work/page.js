@@ -29,7 +29,8 @@ const projects = [
       { name: "Framer-motion" },
     ],
     img: "/assets/work/thumb4.png",
-    live: "https://my-headphones.vercel.app/",
+    // live: "https://my-headphones.vercel.app/",
+    live: "https://github.com/UmerIshaq/my-headphones",
     github: "https://github.com/UmerIshaq/my-headphones",
   },
   {
@@ -44,7 +45,8 @@ const projects = [
       { name: "Redux-Toolkit" },
     ],
     img: "/assets/work/thumb1.png",
-    live: "https://shop-store-dov9.vercel.app/",
+    // live: "https://shop-store-dov9.vercel.app/",
+    live: "https://github.com/UmerIshaq/shop-store",
     github: "https://github.com/UmerIshaq/shop-store",
   },
   {
@@ -55,7 +57,8 @@ const projects = [
       "A visually stunning and interactive image gallery website built with Next.js, showcasing a curated collection of images with smooth navigation and responsive design",
     stack: [{ name: "Next.js" }, { name: "Tailwind" }, { name: "TypeScript" }],
     img: "/assets/work/thumb2.png",
-    live: "https://image-gallery-cloz.vercel.app/",
+    // live: "https://image-gallery-cloz.vercel.app/",
+    live: "https://github.com/UmerIshaq/image_gallery",
     github: "https://github.com/UmerIshaq/image_gallery",
   },
   {
@@ -66,7 +69,8 @@ const projects = [
       "A comprehensive movies web app built with Next.Js, featuring a vast film library, personalized recommendations.",
     stack: [{ name: "Next.js" }, { name: "Bootstrap" }],
     img: "/assets/work/p3.png",
-    live: "https://movieapp-trh8.vercel.app/",
+    // live: "https://movieapp-trh8.vercel.app/",
+    live: "https://github.com/UmerIshaq/movieapp",
     github: "https://github.com/UmerIshaq/movieapp",
   },
 ];
